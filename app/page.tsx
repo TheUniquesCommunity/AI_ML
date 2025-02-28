@@ -6,7 +6,6 @@ import Highlights from "@/components/Highlights";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
 
-
 export default function Home() {
   return (
     <div className="bg-black">
