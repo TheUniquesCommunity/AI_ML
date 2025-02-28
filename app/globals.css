@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+/* ========================================== TAILWIND STYLES */
+@layer base {
+    /* Remove scrollbar */
+    .remove-scrollbar::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      border-radius: 0px;
+    }
+  
+    .remove-scrollbar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  
+    .remove-scrollbar::-webkit-scrollbar-thumb {
+      background: transparent;
+      border-radius: 0px;
+    }
+  
+    .remove-scrollbar::-webkit-scrollbar-thumb:hover {
+      /* background: #1e2238; */
+      background: transparent;
+    }
+  }
+
+/* SHADCN-OVERRIDES */
+
+
+/* .shad-primary-btn{
+    @apply bg-[#8C45FF] text-white !important
+} */
+
+/* styles/globals.css */
+.shad-primary-btn {
+  background-color: rgba(140, 69, 255, 0.6) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important; 
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: 200 !important;
+}
+.thin-border {
+    border-width: 1px;
+    border-color: rgba(221, 214, 214, 0.5); /* 50% opacity */
+    padding: 0.5rem 2.5rem;
+}
+.thin-border2 {
+    border-width: 1.25px;
+    border-color: rgba(221, 214, 214, 0.2); /* 50% opacity */
+    padding: 0.5rem 1rem;
+}
+.partner-card {
+    border-width: 2px;
+    border-color: rgba(221, 214, 214, 0.2); /* 50% opacity */
+    padding: 2rem 2rem;
+}
+
+/* ========================================== TAILWIND STYLES */
