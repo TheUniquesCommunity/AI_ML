@@ -4,6 +4,7 @@ import Badge from "./elements/Badge";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import { Cover } from "@/components/ui/cover";
+import Link from "next/link";
 import {
   Carousel,
   CarouselContent,
@@ -88,9 +89,19 @@ const Hero = () => {
               2025.
             </p>
           </div>
-          <motion.div whileHover={{ scale: 1.1 }} transition={{ delay: 0.1 }}>
-            <Button>Start for free</Button>
-          </motion.div>
+
+          <div className="flex items-center justify-center gap-2 md:gap-3">
+            <motion.div transition={{ delay: 0.1 }}>
+              <Button>
+                <Link href="/register">Register</Link>
+              </Button>
+            </motion.div>
+            <motion.div transition={{ delay: 0.1 }}>
+              <Button>
+                <Link href="#">Download Brochure</Link>
+              </Button>
+            </motion.div>
+          </div>
         </div>
       </section>
       <div className="flex flex-col items-center justify-center">
