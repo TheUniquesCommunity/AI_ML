@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Highlights from "@/components/Highlights";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
+import Map from "@/components/Map/Wom"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Partners />
       <Highlights />
       <Features />
+      <Map/>
       <Clients />
       <Footer />
     </div>
