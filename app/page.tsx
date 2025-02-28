@@ -1,3 +1,5 @@
+"use client";
+
 import Clients from "@/components/Clients";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
@@ -7,17 +9,18 @@ import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
 import About from "@/components/About";
 import { CardBody } from "@/components/ui/3Dcard";
+import HoverSection from "@/components/HoverSection";
+import Map from "@/components/Map/Wom";
 
 export default function Home() {
   return (
     <div className="bg-black">
       <Navbar />
       <Hero />
-      <CardBody>Hello</CardBody>
-      <About />
       <Partners />
       <Highlights />
       <Features />
+      <Map />
       <Clients />
       <Footer />
     </div>
