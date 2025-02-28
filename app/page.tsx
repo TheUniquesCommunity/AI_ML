@@ -8,7 +8,6 @@ import Highlights from "@/components/Highlights";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
 import HoverSection from "@/components/HoverSection";
-import EditorSection from "@/components/EditorSection";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <Hero />
       <HoverSection />
       <Partners />
-      <EditorSection />
       <Highlights />
       <Features />
       <Clients />
