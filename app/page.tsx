@@ -5,12 +5,16 @@ import Hero from "@/components/Hero";
 import Highlights from "@/components/Highlights";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
+import About from "@/components/About";
+import { CardBody } from "@/components/ui/3Dcard";
 
 export default function Home() {
   return (
     <div className="bg-black">
       <Navbar />
       <Hero />
+      <CardBody>Hello</CardBody>
+      <About />
       <Partners />
       <Highlights />
       <Features />
