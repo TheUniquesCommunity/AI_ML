@@ -145,7 +145,7 @@ const Hero = () => {
           <div className="w-full h-[100px] md:h-[150px] lg:h-[200px] absolute bottom-0 bg-gradient-to-t from-black to-transparent"></div>
         </div>
       </div> */}
-         <img src={bgrem.src} alt="bgrem" className="w-[500px] hidden lg:block  absolute right-0 bottom-0 object-cover" />
+         <Image  src={bgrem.src} alt="bgrem" className="w-[500px] hidden lg:block  absolute right-0 bottom-0 object-cover" />
     </div>
   );
 };

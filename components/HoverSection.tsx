@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import  Image  from "next/image";
 
 function HoverSection() {
   // Default to step 2 (Copy The Snippet) if desired
@@ -134,21 +135,21 @@ function HoverSection() {
           <div className="col-span-12 lg:col-start-8 lg:col-span-5 flex items-center relative mt-8 lg:mt-0">
             <div className="relative w-full">
               {activeStep === 1 && (
-                <img
+                <Image 
                   src="https://assets.easyfrontend.com/tailwind/images/resources-easyfrontend.png"
                   alt="Find The Perfect Component"
                   className="w-full rounded-lg shadow-3xl"
                 />
               )}
               {activeStep === 2 && (
-                <img
+                <Image 
                   src="https://assets.easyfrontend.com/tailwind/images/copy-code-easyfrontend.png"
                   alt="Copy The Snippet"
                   className="w-full rounded-lg shadow-3xl"
                 />
               )}
               {activeStep === 3 && (
-                <img
+                <Image 
                   src="https://assets.easyfrontend.com/tailwind/images/use-code-easyfrontend.png"
                   alt="Make It Yours"
                   className="w-full rounded-lg shadow-3xl"
@@ -159,7 +160,7 @@ function HoverSection() {
         </div>
       </div>
       {/* Updated red gradient using a CSS radial gradient with color #6e36c9 */}
-      <img
+      <Image 
         src="https://assets.easyfrontend.com/tailwind/images/illustration/bg-color-gradient-circle-green.png"
         alt=""
         className="w-[75%] absolute right-0 bottom-0 translate-x-[40%] translate-y-[15%] pointer-events-none z-[-2]"

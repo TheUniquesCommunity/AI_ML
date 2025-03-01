@@ -7,7 +7,7 @@ export default function ClippedCard() {
     <div className="relative flex items-center space-x-4 shadow-lg p-6 w-[400px] rounded-xl border border-gray-200">
       {/* Left Image with Mask */}
       <div className="w-16 h-16">
-        <img
+        <Image 
           src={bg.src}
           alt="Icon"
           className="custom-card object-cover"

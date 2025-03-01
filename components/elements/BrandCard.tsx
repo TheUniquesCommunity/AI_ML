@@ -7,7 +7,7 @@ const BrandCard = ({src, alt}:{src:string, alt:string}) => {
   return (
     <motion.div whileHover={{scale: 1.1}}>
         <div className='rounded-xl partner-card h-[4rem] md:h-[6rem] flex items-center justify-center p-2 md:p-4'>
-          <img 
+          <Image  
             src={src} 
             alt={alt} 
             height={34}
