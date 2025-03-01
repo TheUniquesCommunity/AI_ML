@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI starter kit",
-  description: "MVP starter kit for budding AI startups",
+  title: "AI ML Convention 2025",
+  description: "The AI/ML Convention is a premier gathering of AI and machine learning enthusiasts, researchers, and professionals. It features keynotes, panel discussions, and networking opportunities to explore the latest trends and advancements in the field.",
 };
 
 export default function RootLayout({
@@ -18,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Unbounded:wght@600;700&display=swap"></link>
       </head>
       <body className={inter.className}>
         <ThemeProvider
