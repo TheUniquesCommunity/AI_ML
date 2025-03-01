@@ -11,6 +11,7 @@ import About from "@/components/About";
 import { CardBody } from "@/components/ui/3Dcard";
 import HoverSection from "@/components/HoverSection";
 import Map from "@/components/Map/Wom";
+import FAQSection from "@/components/FAQSection";
 
 export default function Home() {
   return (
@@ -28,6 +29,8 @@ export default function Home() {
       <div className="p-10"></div>
       <Map/>
       {/* <Clients /> */}
+      <div className="p-10"></div>
+      <FAQSection />
       <div className="p-10"></div>
       <Footer />
     </div>
