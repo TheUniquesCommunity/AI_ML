@@ -15,12 +15,18 @@ export default function Home() {
     <div className="bg-black">
       <Navbar />
       <Hero />
+      <div className="p-10"></div>
       <HoverSection />
+      <div className="p-10"></div>
       <Partners />
+      <div className="p-10"></div>
       <Highlights />
+      <div className="p-10"></div>
       <Features />
+      <div className="p-10"></div>
       <Map/>
-      <Clients />
+      {/* <Clients /> */}
+      <div className="p-10"></div>
       <Footer />
     </div>
   );

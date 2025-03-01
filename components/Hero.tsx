@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 import { Cover } from "@/components/ui/cover";
 import Link from "next/link";
+import bgrem from "@/public/assets/Images/bgrem.png"
 import {
   Carousel,
   CarouselContent,
@@ -68,7 +69,8 @@ const Hero = () => {
     videoContainer: `${isMobile ? "w-full" : "w-[1100px]"}`,
   };
   return (
-    <div className="bg-custom-background bg-cover min-h-screen shadow-lg px-4 md:px-8">
+    <div className="bg-custom-background md:relative bg-cover shadow-lg px-4 md:px-8">
+   
       <section className="remove-scrollbar container mt-[2rem]">
         <div className="sub-container flex flex-col py-6 md:py-10 items-center">
           <Badge />
@@ -104,10 +106,25 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <div className="flex flex-col items-center justify-center">
+      {/* <div className="flex flex-col items-center justify-center">
         <div className="relative w-full flex flex-col items-center">
           <Carousel className="w-full md:max-w-[1420px]">
             <CarouselContent className="-ml-4">
+              <CarouselItem className="pl-4 w-full">
+                <div
+                  style={{ borderRadius: "25px", overflow: "hidden" }}
+                  className="md:rounded-[35px] lg:rounded-[50px]"
+                >
+                  <video
+                    src="/assets/videos/video.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    style={{ width: "100%", height: "auto" }}
+                    className="w-full"
+                  ></video>
+                </div>
+              </CarouselItem>
               <CarouselItem className="pl-4 w-full">
                 <div
                   style={{ borderRadius: "25px", overflow: "hidden" }}
@@ -127,7 +144,8 @@ const Hero = () => {
           </Carousel>
           <div className="w-full h-[100px] md:h-[150px] lg:h-[200px] absolute bottom-0 bg-gradient-to-t from-black to-transparent"></div>
         </div>
-      </div>
+      </div> */}
+         <img src={bgrem.src} alt="bgrem" className="w-[500px] hidden lg:block  absolute right-0 bottom-0 object-cover" />
     </div>
   );
 };

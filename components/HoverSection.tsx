@@ -12,7 +12,7 @@ function HoverSection() {
         <div className="grid grid-cols-12 relative">
           <div className="col-span-12 md:col-start-3 md:col-span-10 lg:col-start-4 lg:col-span-6 text-center">
             <h2
-              className="display-s-semibold md:display-lg-semibold text-gray-700 dark:text-white wow fadeInUp"
+              className="display-s-semibold md:display-lg-semibold text-5xl  text-gray-700 dark:text-white wow fadeInUp"
               data-wow-delay=".1s"
               style={{
                 visibility: "visible",
@@ -20,7 +20,7 @@ function HoverSection() {
                 animationName: "fadeInUp",
               }}
             >
-              Make It Yours Just In One Click
+              What's in store for <span className="text-[#6e36c9] font-bold">you</span> ?
             </h2>
           </div>
         </div>
@@ -32,6 +32,8 @@ function HoverSection() {
                   activeStep === 1 ? "opacity-100" : "opacity-50"
                 }`}
                 onMouseEnter={() => setActiveStep(1)}
+                onClick={() => setActiveStep(1)}
+                onTouchStart={() => setActiveStep(1)}
               >
                 <span className="hidden sm:flex justify-center items-center absolute w-[60px] h-[60px] -left-[117px] top-0 bg-black rounded-full text-[20px] text-white font-display shadow-[3px_0_0_#6e36c9]">
                   <span>01</span>
@@ -66,6 +68,8 @@ function HoverSection() {
                   activeStep === 2 ? "opacity-100" : "opacity-50"
                 }`}
                 onMouseEnter={() => setActiveStep(2)}
+                onClick={() => setActiveStep(2)}
+                onTouchStart={() => setActiveStep(2)}
               >
                 <span className="hidden sm:flex justify-center items-center absolute w-[60px] h-[60px] -left-[117px] top-0 bg-black rounded-full text-[20px] text-white font-display shadow-[3px_0_0_#6e36c9]">
                   <span>02</span>
@@ -100,6 +104,8 @@ function HoverSection() {
                   activeStep === 3 ? "opacity-100" : "opacity-50"
                 }`}
                 onMouseEnter={() => setActiveStep(3)}
+                onClick={() => setActiveStep(3)}
+                onTouchStart={() => setActiveStep(3)}
               >
                 <span className="hidden sm:flex justify-center items-center absolute w-[60px] h-[60px] -left-[117px] top-0 bg-black rounded-full text-[20px] text-white font-display shadow-[3px_0_0_#6e36c9]">
                   <span>03</span>
@@ -167,6 +173,5 @@ function HoverSection() {
     </section>
   );
 }
-
 
 export default HoverSection;
