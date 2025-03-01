@@ -196,3 +196,4 @@ const FileField = ({ icon, label, name, onChange }: any) => (
 );
 
 export default RegisterPage;
+
