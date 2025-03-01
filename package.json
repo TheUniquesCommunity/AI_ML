@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
-    "@react-three/drei": "^10.0.3",
-    "@react-three/fiber": "^9.0.0-alpha.8",
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.8.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dotted-map": "^2.2.3",
     "embla-carousel-react": "^8.1.8",
     "framer-motion": "^11.3.19",
     "lucide-react": "^0.417.0",
@@ -23,10 +25,9 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
+    "react-scrollama": "^2.3.3",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7",
-    "three": "^0.174.0",
-    "three-globe": "^2.41.12"
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
