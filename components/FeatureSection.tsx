@@ -1,69 +1,65 @@
 import { cn } from "@/lib/utils";
 import {
-  IconAdjustmentsBolt,
+  
   IconCloud,
-  IconCurrencyDollar,
-  IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
+  IconUsers,
+  IconNetwork,
+  IconMicrophone,
+  IconBook,
+  IconCalendar,
+  IconMapPin,
+  IconStars,
 } from "@tabler/icons-react";
 
 export function FeaturesSectionDemo() {
   const features = [
     {
-      title: "Built for developers",
-      description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
-      icon: <IconTerminal2 />,
+      title: "Diverse Panelists",
+      description: "Leaders from startups, industries, and academia come together to share insights.",
+      icon: <IconUsers />,
     },
     {
-      title: "Ease of use",
-      description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
-      icon: <IconEaseInOut />,
-    },
-    {
-      title: "Pricing like no other",
-      description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
-      icon: <IconCurrencyDollar />,
-    },
-    {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
+      title: "Inspiring Discussions",
+      description: "Engaging conversations that ignite ideas and foster innovation.",
       icon: <IconCloud />,
     },
     {
-      title: "Multi-tenant Architecture",
-      description: "You can simply share passwords instead of buying new seats",
-      icon: <IconRouteAltLeft />,
+      title: "Networking Opportunities",
+      description: "Connect with experts, mentors, and fellow attendees to expand your professional circle.",
+      icon: <IconNetwork />,
     },
     {
-      title: "24/7 Customer Support",
-      description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
-      icon: <IconHelp />,
+      title: "Entertainment & Fun",
+      description: "Enjoy stand-up comedy, band performances, and cultural events.",
+      icon: <IconMicrophone />,
     },
     {
-      title: "Money back guarantee",
-      description:
-        "If you donot like EveryAI, we will convince you to like us.",
-      icon: <IconAdjustmentsBolt />,
+      title: "Learning & Growth",
+      description: "Gain knowledge through workshops and hands-on sessions led by industry experts.",
+      icon: <IconBook />,
     },
     {
-      title: "And everything else",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
-      icon: <IconHeart />,
+      title: "Event Schedule",
+      description: "A well-planned three-day fest filled with activities for everyone.",
+      icon: <IconCalendar />,
+    },
+    {
+      title: "Venue & Accessibility",
+      description: "Easily accessible location with all necessary amenities.",
+      icon: <IconMapPin />,
+    },
+    {
+      title: "Celebrating Achievements",
+      description: "Recognizing outstanding contributions and awarding talent.",
+      icon: <IconStars />,
     },
   ];
   return (
     <div>
       <div className="flex flex-col items-center  my-10 md:mt-[2rem] p-4 md:p-[5rem]">
         <h1 className="text-2xl md:text-4xl lg:text-5xl font-light text-center max-w-[900px] tracking-tighter">
-          <span className="text-3xl md:text-5xl lg:text-6xl font-normal">Harness the power of AI</span>, <br/>
-          <span className="text-white/60 text-xl md:text-2xl lg:text-3xl">making search engine optimization intuitive and effective for all skill levels.</span>
+          <span className="text-3xl md:text-5xl lg:text-6xl font-normal">About AI/ML Convention</span>, <br/>
+          <span className="text-white/60 text-xl md:text-2xl lg:text-3xl">An immersive experience designed to inspire, educate, and entertain.</span>
         </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10 max-w-7xl mx-auto">

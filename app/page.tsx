@@ -22,23 +22,28 @@ export default function Home() {
       <Navbar />
       <Hero />
       <div className="p-10"></div>
-      <HoverSection />
+      <FeaturesSectionDemo/>
       <div className="p-10"></div>
-      <Partners />
+      <HoverSection />
       <div className="p-10"></div>
       <Highlights />
       <div className="p-10"></div>
-      {/* <ClippedCard/> */}
-      <GlowingCard/>
-      <Features />
-      <div className="p-10"></div>
       <Map/>
-      <div className="p-10"></div>
-      <FeaturesSectionDemo/>
+      
+      
+      {/* <ClippedCard/> */}
+     
+      <Features />
+      {/* <div className="p-10"></div>
+      <Partners /> */}
+      
       {/* <Clients /> */}
+      
+      <div className="p-10"></div>
+      <GlowingCard/>
+      
       <div className="p-10"></div>
       <FAQSection />
-      <div className="p-10"></div>
       <Footer />
     </div>
   );

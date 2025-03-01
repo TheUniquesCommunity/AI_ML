@@ -20,7 +20,7 @@ function HoverSection() {
                 animationName: "fadeInUp",
               }}
             >
-              What's in store for <span className="text-[#6e36c9] font-bold">you</span> ?
+              AI/ML Convention: <span className="text-[#6e36c9] font-bold">Speaker Sessions</span>
             </h2>
           </div>
         </div>
@@ -47,10 +47,10 @@ function HoverSection() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  Find The Perfect Component
+                  The Future of AI & Machine Learning
                 </h4>
                 <p
-                  className="text-sm-regular text-gray-300 dark:text-gray-100 mt-6 wow fadeInUp"
+                  className="text-sm-regular text-gray-300 dark:text-gray-100 mt-3 wow fadeInUp"
                   data-wow-delay=".2s"
                   style={{
                     visibility: "visible",
@@ -58,9 +58,7 @@ function HoverSection() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  Every component is embedded live directly on the page, and you
-                  can even see what they look like at different breakpoints by
-                  selecting device type.
+                  Explore the advancements in AI, its impact across industries, and what the future holds for artificial intelligence.
                 </p>
               </li>
               <li
@@ -83,10 +81,10 @@ function HoverSection() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  Copy The Snippet
+                  AI in Real-World Applications
                 </h4>
                 <p
-                  className="text-sm-regular text-gray-300 dark:text-gray-100 mt-6 wow fadeInUp"
+                  className="text-sm-regular text-gray-300 dark:text-gray-100 mt-3 wow fadeInUp"
                   data-wow-delay=".2s"
                   style={{
                     visibility: "visible",
@@ -94,9 +92,7 @@ function HoverSection() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  Click the "Code" tab to see the code for a component and grab
-                  the part that you need, or click the clipboard button to
-                  quickly copy the entire snippet.
+                  Learn from industry experts how AI and ML are transforming healthcare, finance, education, and more.
                 </p>
               </li>
               <li
@@ -119,10 +115,10 @@ function HoverSection() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  Make It Yours
+                  AI Ethics & Responsible Innovation
                 </h4>
                 <p
-                  className="text-sm-regular text-gray-300 dark:text-gray-100 mt-6 wow fadeInUp"
+                  className="text-sm-regular text-gray-300 dark:text-gray-100 mt-3 wow fadeInUp"
                   data-wow-delay=".2s"
                   style={{
                     visibility: "visible",
@@ -130,9 +126,7 @@ function HoverSection() {
                     animationName: "fadeInUp",
                   }}
                 >
-                  Every component is built by framework utility classes with
-                  some custom classes if only needed, so you can easily dive in
-                  and adjust anything you want to better fit your use case.
+                  A discussion on the ethical concerns surrounding AI, data privacy, and responsible innovation in AI/ML.
                 </p>
               </li>
             </ul>

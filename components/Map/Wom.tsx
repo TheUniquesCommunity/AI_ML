@@ -6,10 +6,10 @@ export default function WorldMapDemo() {
   return (
     <div className=" py-40  bg-black w-full">
       <div className="max-w-7xl mx-auto text-center">
-        <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
-          Remote{" "}
-          <span className="text-neutral-400">
-            {"Connectivity".split("").map((word, idx) => (
+      <p className="font-bold text-xl md:text-4xl dark:text-white text-black ">
+          Connecting 
+          <span className="text-neutral-400 pl-1">
+            {"Communities".split("").map((letter, idx) => (
               <motion.span
                 key={idx}
                 className="inline-block"
@@ -17,15 +17,13 @@ export default function WorldMapDemo() {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: idx * 0.04 }}
               >
-                {word}
+                {letter}
               </motion.span>
             ))}
           </span>
         </p>
         <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
-          Break free from traditional boundaries. Work from anywhere, at the
-          comfort of your own studio apartment. Perfect for Nomads and
-          Travellers.
+          Participants and communities from different cities all over India are joining us to collaborate, innovate, and grow together. Be part of this movement and make an impact.
         </p>
       </div>
       <WorldMap

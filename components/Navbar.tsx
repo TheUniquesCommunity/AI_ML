@@ -82,8 +82,8 @@ const scrollToSection = (sectionId: string) => {
 };
 
 export default function ResponsiveNavbar() {
-  const navItems = ['Features', 'Developers', 'Company', 'Blog', 'Changelog'];
-  const sectionIds = ['features', 'developers', 'company', 'blog', 'changelog']; // add corresponding section IDs here
+  const navItems = ['About', 'Ideathon', 'Benefits', 'Sessions', 'Contact'];
+  const sectionIds = ['About', 'Ideathon', 'Benefits', 'Sessions', 'Contact']; // add corresponding section IDs here
   const size = useWindowSize();
   const isMobile = size.width < 768;
 
@@ -111,7 +111,7 @@ export default function ResponsiveNavbar() {
       )}
 
       <div className='border-1 border-white rounded-xl p-2'>
-        <Button className='shad-primary-btn rounded-xl'>Join Waitlist</Button>
+        <Button className='shad-primary-btn rounded-xl'>Join Us</Button>
       </div>
     </div>
   );
