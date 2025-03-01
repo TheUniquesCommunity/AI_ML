@@ -7,8 +7,10 @@ import Hero from "@/components/Hero";
 import Highlights from "@/components/Highlights";
 import Navbar from "@/components/Navbar";
 import Partners from "@/components/Partners";
+import About from "@/components/About";
+import { CardBody } from "@/components/ui/3Dcard";
 import HoverSection from "@/components/HoverSection";
-import Map from "@/components/Map/Wom"
+import Map from "@/components/Map/Wom";
 
 export default function Home() {
   return (
@@ -31,5 +33,3 @@ export default function Home() {
     </div>
   );
 }
-
-
