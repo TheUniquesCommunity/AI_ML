@@ -14,6 +14,7 @@ import { CardBody } from "@/components/ui/3Dcard";
 import HoverSection from "@/components/HoverSection";
 import Map from "@/components/Map/Wom";
 import FAQSection from "@/components/FAQSection";
+import { FeaturesSectionDemo } from "@/components/FeatureSection";
 
 export default function Home() {
   return (
@@ -32,6 +33,8 @@ export default function Home() {
       <Features />
       <div className="p-10"></div>
       <Map/>
+      <div className="p-10"></div>
+      <FeaturesSectionDemo/>
       {/* <Clients /> */}
       <div className="p-10"></div>
       <FAQSection />
