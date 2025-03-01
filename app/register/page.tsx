@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button"; // Change based on your folder structure
 
-const page: React.FC = () => {
+const RegisterPage: React.FC = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -195,4 +195,4 @@ const FileField = ({ icon, label, name, onChange }: any) => (
   </div>
 );
 
-export default page;
+export default RegisterPage;
