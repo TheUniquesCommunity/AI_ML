@@ -1,6 +1,8 @@
 import Clients from "@/components/Clients";
+import ClippedCard from "@/components/ClippedCard/ClippedCard";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
+import { GlowingCard } from "@/components/GlowingCard/GlowingCard";
 import Hero from "@/components/Hero";
 import Highlights from "@/components/Highlights";
 import Navbar from "@/components/Navbar";
@@ -14,6 +16,8 @@ export default function Home() {
       <Hero />
       <Partners />
       <Highlights />
+      {/* <ClippedCard/> */}
+      <GlowingCard/>
       <Features />
       <Clients />
       <Footer />

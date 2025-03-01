@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Badge from "./elements/Badge";
 import { Button } from "./ui/button";
-import Image from "next/image";
+import ClippedCard from '@/components/ClippedCard/ClippedCard'
 import {
   Carousel,
   CarouselContent,
@@ -10,7 +10,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardContent } from "./ui/card";
+
 import {
   animate,
   motion,
@@ -84,14 +84,8 @@ const Hero = () => {
             <CarouselContent className="-ml-4">
               <CarouselItem className="pl-4 w-full">
                 <div style={{ borderRadius: "25px", overflow: "hidden" }} className="md:rounded-[35px] lg:rounded-[50px]">
-                  <video
-                    src="/assets/videos/video.mp4"
-                    autoPlay
-                    muted
-                    loop
-                    style={{ width: "100%", height: "auto" }}
-                    className="w-full"
-                  ></video>
+                  
+                  {/* <GlobeDemo /> */}
                 </div>
               </CarouselItem>
             </CarouselContent>
