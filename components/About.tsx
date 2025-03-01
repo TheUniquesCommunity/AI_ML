@@ -48,7 +48,7 @@ const ServicesSection: React.FC = () => {
       {/* Left Section (Text) - Starts from the Top Left */}
       <div className="w-full md:w-2/5 flex flex-col justify-start">
         <h2 className="text-4xl lg:text-5xl text-black font-bold mb-4 leading-tight">
-          What's in store for you ?
+          What&apos;s in store for you ?
         </h2>
         <p className="text-gray-600 text-base mb-6 leading-relaxed text-justify">
           The Virtual AI/ML Convention connects you with top experts, engaging
