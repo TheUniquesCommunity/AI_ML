@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from 'react';
 
 interface FAQItem {
@@ -10,21 +10,21 @@ interface FAQItem {
 const FAQSection = () => {
   const [faqs, setFaqs] = useState<FAQItem[]>([
     {
-      question: 'What is Easy Frontend?',
-      answer: 'EasyFrontend offers a collection of UI Components, Blocks, and Sections built with HTML, React, Bootstrap, and Tailwind CSS. These components are designed to boost your development workflow by providing over 600+ free UI components. Developers can utilize these components by copy-pasting code directly into their projects.',
+      question: 'What is the AI/ML Convention?',
+      answer: 'The AI/ML Convention is a premier gathering of AI and machine learning enthusiasts, researchers, and professionals. It features keynotes, panel discussions, and networking opportunities to explore the latest trends and advancements in the field.',
       isOpen: true
     },
     {
-      question: 'What does EasyFrontend editor do?',
-      answer: 'The editor allows users to create, edit, and download complete websites and landing pages without the need for coding from scratch. Users can leverage this editor to customize and integrate the UI components from the collection seamlessly into their projects.'
+      question: 'What is the Ideathon?',
+      answer: 'The Ideathon is a competition where participants pitch innovative ideas related to AI/ML. Teams collaborate to develop solutions that address real-world challenges, with mentorship and guidance from industry experts.'
     },
     {
-      question: 'How often does your team upload resources?',
-      answer: 'We are uploading resources every week.'
+      question: 'Who can participate in the AI/ML Convention and Ideathon?',
+      answer: 'Students, professionals, researchers, and AI enthusiasts from all backgrounds are welcome to join. Whether you’re a beginner or an expert, there’s something for everyone!'
     },
     {
-      question: 'EasyFrontend License',
-      answer: 'All freebies available on EasyFrontend are free to use for both personal and commercial purposes...'
+      question: 'What are the benefits of attending?',
+      answer: 'Attendees gain exposure to cutting-edge AI/ML research, network with industry leaders, and have the chance to participate in hands-on workshops and the Ideathon, where they can showcase their innovative ideas.'
     }
   ]);
 
@@ -37,12 +37,12 @@ const FAQSection = () => {
 
   return (
     <section className="px-4 md:py-[100px] ">
-      <div className=" relative z-[1] mx-auto ">
+      <div className="relative z-[1] mx-auto ">
         <div className="grid grid-cols-12">
           <div className="col-span-12">
             <div className="mb-12">
-              <h2 className="text-3xl   md:text-7xl font-semibold text-white text-center mb-8">
-                Frequently<br /> Asked Questions
+              <h2 className="text-3xl md:text-5xl font-semibold text-white text-center mb-8 animate-pulse">
+              Frequently Asked Questions
               </h2>
             </div>
           </div>
