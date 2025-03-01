@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-
+import tu from '@/public/assets/Images/tu-red.png';
 const Footer = () => {
   return (
     <div className="flex flex-col w-full">
@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="flex justify-center items-center p-2">
           <div className="bg-purple-800 h-[60px] w-[60px] relative blur-lg"></div>
           <Image
-            src="/assets/Images/logo.png"
+            src={tu.src}
             alt="logo"
-            width={50}
-            height={50}
+            width={40}
+            height={40}
             className="absolute"
           />
         </div>
