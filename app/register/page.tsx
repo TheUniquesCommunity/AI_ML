@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Upload, Link, User, Mail, Phone, School, Sparkles, ChevronRight } from "lucide-react";
 import { Button } from "../../components/ui/button";
 
-const page: React.FC = () => {
+const RegisterPage: React.FC = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
