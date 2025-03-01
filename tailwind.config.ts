@@ -18,16 +18,16 @@ const config = {
       },
     },
     extend: {
-      backgroundImage:{
+      backgroundImage: {
         'custom-background': "url('/assets/Images/group.png')",
         'background-blur': "url('/assets/Images/blur.png')",
         'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
       },
-      colors:{
-        'purple': {
+      colors: {
+        purple: {
           light: '#9855ff',
           '800': '#6B21A8',
-          'dark':'#180d2d'
+          dark: '#180d2d',
         },
       },
       keyframes: {
