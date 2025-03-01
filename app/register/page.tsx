@@ -340,4 +340,4 @@ const RegisterPage: React.FC = () => {
   );
 };
 
-export default page;
+export default RegisterPage;
