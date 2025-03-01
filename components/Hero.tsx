@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 import { Cover } from "@/components/ui/cover";
 import Link from "next/link";
-import bgrem from "@/public/assets/Images/bgrem.png"
+
 import {
   Carousel,
   CarouselContent,
@@ -145,7 +145,14 @@ const Hero = () => {
           <div className="w-full h-[100px] md:h-[150px] lg:h-[200px] absolute bottom-0 bg-gradient-to-t from-black to-transparent"></div>
         </div>
       </div> */}
-         <Image  src={bgrem.src} alt="bgrem" className="w-[500px] hidden lg:block  absolute right-0 bottom-0 object-cover" />
+         {/* <Image  src={bgrem.src} alt="bgrem" className="w-[500px] hidden lg:block  absolute right-0 bottom-0 object-cover" /> */}
+         <Image
+  src="/assets/Images/bgrem.png"
+  alt="copy-code"
+  width={500} // Adjust as needed
+  height={300} // Adjust as needed
+  className="w-[500px] hidden lg:block  absolute right-0 bottom-0 object-cover"
+/>;
     </div>
   );
 };
